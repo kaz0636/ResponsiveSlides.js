@@ -68,8 +68,8 @@
         $pager = $("<ul class='" + namespace + "_tabs " + namespaceIdx + "_tabs' />"),
 
         // Styles for visible and hidden slides
-        visible = {"float": "left", "position": "relative", "opacity": 1, "zIndex": 2},
-        hidden = {"float": "none", "position": "absolute", "opacity": 0, "zIndex": 1},
+        visible = {"opacity": 1, "zIndex": 2},
+        hidden = {"opacity": 0, "zIndex": 1},
 
         // Detect transition support
         supportsTransitions = (function () {
